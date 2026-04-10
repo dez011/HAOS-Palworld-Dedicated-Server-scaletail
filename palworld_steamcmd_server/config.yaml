@@ -1,5 +1,5 @@
 name: Palworld Dedicated Server (SteamCMD)
-slug: palworld_steamcmd_server
+slug: palworld_steamcmd_server-tailscale
 description: Palworld Dedicated Server – Steam komplett unter /share, optional Tailscale
 version: "1.4.0"
 arch:
