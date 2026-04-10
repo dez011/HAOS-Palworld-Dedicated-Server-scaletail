@@ -47,7 +47,7 @@ No additional server, virtual machine, or external host is required.
 https://github.com/dez011/HAOS-Palworld-Dedicated-Server-scaletail
 ```
 
-4. Install **Palworld Dedicated Server**
+4. Install **Palworld Dedicated Server (Tailscale)**
 5. Start the add-on
 
 ---
