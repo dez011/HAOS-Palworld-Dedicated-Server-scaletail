@@ -44,7 +44,7 @@ No additional server, virtual machine, or external host is required.
 3. Add the following repository:
 
 ```
-https://github.com/cyclemat/HAOS---Game-Servers
+https://github.com/dez011/HAOS-Palworld-Dedicated-Server-scaletail
 ```
 
 4. Install **Palworld Dedicated Server**
