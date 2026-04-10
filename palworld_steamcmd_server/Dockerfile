@@ -1,5 +1,6 @@
 # Hass.io Debian base (glibc) + s6 overlay
-FROM ghcr.io/hassio-addons/debian-base:stable
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base:stable
+FROM ${BUILD_FROM}
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive
