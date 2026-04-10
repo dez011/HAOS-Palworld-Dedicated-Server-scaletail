@@ -148,22 +148,15 @@ Enable Tailscale to expose your Palworld server on your private Tailnet without 
 
 ## ❤️ Support & Donations
 
-This project is developed and maintained in my free time.
-
-If you enjoy this add-on and find it useful,
-I would really appreciate a small donation to support my work and ongoing development.
-
-👉 [Donate via PayPal](http://paypal.me/cyclemat)
-
-Donations are completely optional – thank you very much!
+This project is a fork maintained by **dez011**, based on the original work by CyCleMat.
 
 ---
 
 ## 🧑‍💻 Maintainer
 
-**Author:** CyCleMat
+**Author:** dez011 (forked from CyCleMat)
 
-**GitHub:** [https://github.com/cyclemat](https://github.com/cyclemat)
+**GitHub:** [https://github.com/dez011/HAOS-Palworld-Dedicated-Server-scaletail](https://github.com/dez011/HAOS-Palworld-Dedicated-Server-scaletail)
 
 ---
 

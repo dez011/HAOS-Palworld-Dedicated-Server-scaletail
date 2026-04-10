@@ -1,7 +1,8 @@
 name: Palworld Dedicated Server (Tailscale)
-slug: palworld_tailscale
-description: Palworld Dedicated Server with SteamCMD and optional Tailscale VPN
-version: "2.0.0"
+slug: palworld_tailscale_dez011
+description: Palworld Dedicated Server with SteamCMD and optional Tailscale VPN (dez011 fork)
+url: https://github.com/dez011/HAOS-Palworld-Dedicated-Server-scaletail
+version: "2.1.0"
 arch:
   - amd64
 
