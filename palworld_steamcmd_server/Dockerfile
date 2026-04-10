@@ -4,7 +4,7 @@ FROM ghcr.io/hassio-addons/debian-base:stable
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive
 
-# 32-bit libs for SteamCMD + tools
+# 32-bit libs for SteamCMD + tools + iptables for Tailscale
 RUN dpkg --add-architecture i386 \
  && apt-get update \
  && apt-get install -y --no-install-recommends \
@@ -12,7 +12,12 @@ RUN dpkg --add-architecture i386 \
     libc6:i386 libstdc++6:i386 libgcc-s1:i386 \
     libcurl4:i386 \
     libncurses6:i386 libtinfo6:i386 \
+    iptables iproute2 \
  && update-ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+
+# Install Tailscale
+RUN curl -fsSL https://tailscale.com/install.sh | bash \
  && rm -rf /var/lib/apt/lists/*
 
 # Create unprivileged steam user
